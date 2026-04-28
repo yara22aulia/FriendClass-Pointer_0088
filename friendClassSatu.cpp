@@ -13,8 +13,7 @@ public:
     friend class siswa;
 };
 
-class siswa
-{
+class siswa{
 private:
     int id;
 
@@ -23,8 +22,7 @@ public:
     void displayAll(orang &a);
 };
 
-void siswa::displayAll(orang &a)
-{
+void siswa::displayAll(orang &a){
     cout << id << endl << a.nama;
 }
 
